@@ -1,0 +1,28 @@
+---
+title: "Online Slotmachine to Offline Landbased Converter"
+date: "2022-01-05"
+description: "Automated system that can turn any supplier's online slot machine into a configurable offline slot machine"
+images: "/static/images/offline-converter-preview.png"
+---
+
+![casino-software](/static/images/slotmachine-converter.png)
+
+Project that makes it possible for any online game supplier to 'convert' their games to configurable offline slotmachines.
+
+The project will automatically source game results by playing slotmachines using [Puppeteer](https://pptr.dev).
+
+The game outcomes are saved and processed in order to be able to generate new RNG on the fly, whilst still feeling like the original online game in terms of volatillity, symbol occurance, bonus game occurance etc. on the offline landbased variant.
+
+After collected enough results the game supplier can create custom configs per game, for example:
+- Changing the RTP/RNG to match landbased casino needs (for example max. win multipliers to match regulations)
+- Creating custom jackpots
+- Using game replayer so games can be played back
+- Creating free spins/bonus sessions
+
+You can set RTP, volatillity and so on using commands within few seconds. These configs can be saved locally in "collections" that can be loaded then on the landbased machine. 
+
+This means there is no need to contact a gameserver over public internet network to get game results.
+
+### Demo:
+- [youtube video showing the system](https://www.youtube.com/watch?v=texkKHgNHy8)
+
