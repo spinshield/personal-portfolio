@@ -1,7 +1,7 @@
 ---
 title: 'First Provably Fair Live Casino Game: "Spin2wheels"'
 date: "2021-12-01"
-description: "Slotmachine game: Happy Billions, with bonus-buy features, extra chance features, free spins."
+description: "First Provably Fair Game for live casino ever released."
 images: "/static/images/spin2wheels.jpg"
 ---
 
